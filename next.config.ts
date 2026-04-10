@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  turbopack: {
+    root: "C:/Users/annal/Documents/React Custom Hooks/React-Custom-Hooks",
+  },
 };
 
 export default nextConfig;
